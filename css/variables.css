@@ -5,10 +5,11 @@
   --primary-color: #5DC521;
   --primary-hover: #56F000;
   --secondary-color: #0f2137;
-  --dark-secondary-color: #3c415c;
+  --dark-secondary-color: #0f3563;
   --tertiary-color: #a6b1e1;
   --light-tertiary-color: #f3f6fb;
   --text-color: #343d48;
+  --transparent: transparent;
   --font-family: 'DM Sans', sans-serif;
   --glow-text-shadow:
     0 0 0.025rem var(--primary-hover), 

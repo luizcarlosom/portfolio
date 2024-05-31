@@ -25,21 +25,21 @@
 .navbar .navbar__content .navbar__links a {
   padding: 1rem;
   display: inline-block;
-  position: relative; /* Adiciona isso para posicionamento relativo do pseudo-elemento */
-  text-decoration: none; /* Remove a decoração padrão do link */
-  color: var(--primary-color); /* Define a cor inicial do link */
-  transition: color 0.3s ease; /* Transição suave para a cor do link */
+  position: relative;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease;
 }
 
 .navbar .navbar__content .navbar__links a::after {
   content: '';
   position: absolute;
   left: 0;
-  bottom: 0; /* Posição da linha abaixo do link */
+  bottom: 0;
   width: 0;
-  height: 2px; /* Espessura da linha */
-  background-color: var(--primary-hover); /* Cor da linha */
-  transition: width 0.3s ease; /* Transição suave para o crescimento da linha */
+  height: 0.20rem;
+  background-color: var(--primary-hover); 
+  transition: width 0.3s ease;
 }
 
 .navbar .navbar__content .navbar__links a:hover {
@@ -47,13 +47,8 @@
   text-shadow: var(--glow-text-shadow);
 }
 
-.navbar .navbar__content .navbar__links a:hover {
-  color: var(--primary-hover); /* Muda a cor do texto no hover */
-  text-shadow: var(--glow-text-shadow); /* Aplica o efeito de sombra no texto */
-}
-
 .navbar .navbar__content .navbar__links a:hover::after {
-  width: 100%; /* Expande a linha para toda a largura do link no hover */
+  width: 100%;
 }
 
 .navbar.active {

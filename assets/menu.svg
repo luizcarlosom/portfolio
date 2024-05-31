@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>
+<svg width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="1" x2="33" y2="1" stroke="#5DC521" stroke-width="2"/>
+<line y1="12" x2="33" y2="12" stroke="#5DC521" stroke-width="2"/>
+<line y1="23" x2="33" y2="23" stroke="#5DC521" stroke-width="2"/>
+</svg>

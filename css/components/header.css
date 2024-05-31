@@ -4,6 +4,7 @@ header {
   align-items: center;
   gap: 4rem;
   scroll-margin-top: 20rem;
+  color: var(--white)
 }
 
 header .header__left {
@@ -46,6 +47,15 @@ header .header__right .header__image .background {
   top: -4rem;
   right: -2.5rem;
   z-index: -1;
+}
+
+.h1__header {
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.span__header {
+  color: var(--primary-color);
 }
 
 @media only screen and (max-width: 768px) {
