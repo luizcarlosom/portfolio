@@ -1,0 +1,18 @@
+:root {
+  --white: #ffffff;
+  --gray: #d9d9d9;
+  --black: #000000;
+  --primary-color: #5DC521;
+  --primary-hover: #56F000;
+  --secondary-color: #0f2137;
+  --dark-secondary-color: #3c415c;
+  --tertiary-color: #a6b1e1;
+  --light-tertiary-color: #f3f6fb;
+  --text-color: #343d48;
+  --font-family: 'DM Sans', sans-serif;
+  --glow-text-shadow:
+    0 0 0.025rem var(--primary-hover), 
+    0 0 0.050rem var(--primary-hover), 
+    0 0 0.075rem var(--primary-hover), 
+    0 0 0.1rem var(--primary-hover);
+}
