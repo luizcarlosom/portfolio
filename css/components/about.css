@@ -33,6 +33,14 @@
   max-width: 66rem;
 }
 
+.span__about {
+  color: var(--white);
+}
+
+.title__about {
+  color: var(--primary-color);
+}
+
 @media only screen and (max-width: 768px) {
   .about {
     flex-direction: column;
