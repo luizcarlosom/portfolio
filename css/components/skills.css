@@ -1,5 +1,6 @@
 .skills {
-  background-color: var(--light-tertiary-color);
+  background-color: var(--black);
+  color: var(--white);
   scroll-margin-top: 15rem;
 }
 
@@ -34,6 +35,6 @@
 
 .skills .skills__content ul li h3 {
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 800;
   margin: 2rem 0 1rem;
 }
