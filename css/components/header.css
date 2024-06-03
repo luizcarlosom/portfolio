@@ -37,7 +37,7 @@ header .header__right .header__image::after {
 }
 
 header .header__right .header__image .luiz {
-  border-radius: 0.5rem;
+  border-radius: 0.6rem;
   min-width: 25rem;
   max-width: 100%;
 }
@@ -60,11 +60,16 @@ header .header__right .header__image .background {
 
 @media only screen and (max-width: 768px) {
   header {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
   }
 
   header .header__left p {
     margin: 2rem auto 4rem;
   }
+
+  header .header__right .header__image::after {
+    display: none;
+  }
+  
 }
